@@ -82,9 +82,9 @@ nav a {
 
 .banner-description {
     color: #757575;
-    font-size: 18px;    
+    font-size: 18px;
     font-weight: 400;
-    
+
 }
 
 .banner-content {
@@ -113,26 +113,54 @@ nav a {
     font-size: 18px;
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
+
 }
 
-.about-info-container{
+main section{
+    margin-top: 130px;
+}
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
 
-main{
+main {
     width: 1140px;
     margin: 0 auto;
 }
 
-#what-I-do{
-    padding: 20px 250px;
-    
+#what-I-do {
+    padding: 30px 150px;
 }
 
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-description {
+    color: #757575;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+
+}
